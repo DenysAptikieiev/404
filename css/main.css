@@ -1,0 +1,27 @@
+.errorWrapper {
+  height: 100%;
+  background: url("../img/background-error-page.png") top/cover no-repeat;
+}
+
+.error {
+  padding: 160px 346px 334px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.error img {
+  width: 100%;
+  height: auto;
+}
+@supports (-webkit-appearance:none){
+.errorWrapper{background:url("../img/background-error-page.webp") top/cover no-repeat}
+}
